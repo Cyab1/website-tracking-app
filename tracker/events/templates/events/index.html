@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website Tracking Test</title>
+    <!-- Load static files -->
+    {% load static %}
+    <!-- Link to tracking.js -->
+    <script src="{% static 'events/tracking.js' %}" defer></script>
+  </head>
+  <body>
+    <h1>Welcome to the Website Tracking Test</h1>
+    <p>Click anywhere on the page to test the tracking system.</p>
+    <button id="testButton">Click Me</button>
+  </body>
+</html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website Tracking Test</title>
+    <script src="tracking.js" defer></script>
+  </head>
+  <body>
+    <h1>Welcome to the Website Tracking Test</h1>
+    <p>Click anywhere on the page to test the tracking system.</p>
+    <button id="testButton">Click Me</button>
+  </body>
+</html> -->
